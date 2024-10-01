@@ -73,6 +73,3 @@ jobs:
         docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:latest -f Dockerfile .
  
         docker push $ECR_REGISTRY/$ECR_REPOSITORY:latest
-
-
-------------------
