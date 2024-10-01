@@ -90,4 +90,4 @@ jobs:
         # kubectl apply -f regapp-deploy.yml
         # kubectl apply -f regapp-service.yml
 
-          kubectl rollout restart deployment/regapp-deploy.yml
+          kubectl rollout restart deployment/regapp-deployment
