@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: regapp
-        image: <your_ecr_image>         # after running the workflow for first time
+        image: 448049786590.dkr.ecr.ap-southeast-1.amazonaws.com/eksgithubactions:latest         # after running the workflow for first time
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
